@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
-    
-    
 }
 body{
-    background-color: #EEEEEE;
+    background: azure;
 }
 header{
     background-color: #222831;
@@ -19,7 +17,7 @@ main{
     .container{
     color: rgb(31, 31, 31);
     min-height: calc(100vh - 78px - 78px);
- }
+    }
 }
 
 footer{
@@ -48,5 +46,14 @@ section{
     width: 75%;
     background-color: #76ABAE;
     float: left;
-    padding: 2px;
+    padding: 12px;
+}
+
+.proj{
+    width: 33%;
+    border: solid 2px #000000;
+    height: 180px;
+    float: left;
+    overflow: hidden;
+
 }
